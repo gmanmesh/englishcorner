@@ -13,6 +13,9 @@ export default tseslint.config(
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    'extends':[
+      'plugin:react/recommended'
+    ],
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
