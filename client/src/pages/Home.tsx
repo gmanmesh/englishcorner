@@ -2,15 +2,15 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { RootState } from '../types/types'
 import UserForm from '../components/UserForm';
-import AboutSection from '../components/web/AboutSection';
-import ServiceSection from '../components/web/OurCourses';
-import ClientsSection from '../components/web/ClientsSection';
-import TestimonialsSection from '../components/web/TestimonialsSection';
-import ContactSection from '../components/web/ContactSection';
-import HeroSection from '../components/web/HeroSection';
-import BlogSection from '../components/web/BlogSection';
-import Navigation from '../components/web/Navigation';
-import Footer from '../components/web/Footer';
+import AboutSection from '../components/web/AboutSection.tsx';
+import ServiceSection from '../components/web/OurCourses.tsx';
+import ClientsSection from '../components/web/ClientsSection.tsx';
+import TestimonialsSection from '../components/web/TestimonialsSection.tsx';
+import ContactSection from '../components/web/ContactSection.tsx';
+import HeroSection from '../components/web/HeroSection.tsx';
+import BlogSection from '../components/web/BlogSection.tsx';
+import Navigation from '../components/web/Navigation.tsx';
+import Footer from '../components/web/Footer.tsx';
 const Home: React.FC = () => {
     const login = useSelector((state: RootState) => state.user.userForm)
 
