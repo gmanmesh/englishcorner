@@ -1,14 +1,14 @@
 import React from 'react';
-import { easeInOut, motion } from 'framer-motion';
-import { setLoginForm } from '../../features/users';
-import { useDispatch } from 'react-redux';
+import { _easeInOut, _motion } from 'framer-motion';
+import { _setLoginForm } from '../../features/users';
+import { _useDispatch } from 'react-redux';
 
 const HeroSection: React.FC = () => {
 
     const dispatch = useDispatch()
     return (
         <div id="home" className=''>
-            <motion.div
+            <_motion.div
             initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: 'easeOut' }}
@@ -54,9 +54,9 @@ const HeroSection: React.FC = () => {
 
 
             </div>
-            </motion.div>
+            </_motion.div>
         </div>
     );
 };
 
-export default HeroSection;
+export default _HeroSection;
