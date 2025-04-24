@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
             </div>
             <div className='z-100 absolute left-0 right-0'>
-                <Footer />
+                <_Footer />
             </div>
         </>
 
